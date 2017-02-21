@@ -118,8 +118,7 @@ public class CarroDAO extends BaseDAO {
 		c.setUrlVideo(rs.getString("url_video"));
 		c.setLatitude(rs.getString("latitude"));
 		c.setLongitude(rs.getString("longitude"));
-		c.setTipo(rs.getString("nome"));
-		c.setNome(rs.getString("tipo"));
+		c.setTipo(rs.getString("tipo"));
 		return c;
 	}
 
